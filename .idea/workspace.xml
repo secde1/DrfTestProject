@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="983da008-b820-4a2d-adaf-1e995765f7c8" name="Changes" comment="feat: req">
-      <change afterPath="$PROJECT_DIR$/api/spectacular/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/spectacular/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TM.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TM.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comman/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/spectacular/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comman/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comman/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comman/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comman/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comman/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirments.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +58,7 @@
       <workItem from="1697879038994" duration="218000" />
       <workItem from="1697880749609" duration="1567000" />
       <workItem from="1697888639373" duration="5625000" />
-      <workItem from="1698062751625" duration="6264000" />
+      <workItem from="1698062751625" duration="8494000" />
     </task>
     <task id="LOCAL-00001" summary="feat: start project">
       <created>1697889127519</created>
