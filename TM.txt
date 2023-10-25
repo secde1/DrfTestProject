@@ -4,3 +4,4 @@ pip install django-cors-headers
 pip install django-environ
 django-admin startproject config .
 pip install djangorestframework-simplejwt
+pip install -U djoser

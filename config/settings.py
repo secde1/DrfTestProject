@@ -26,7 +26,7 @@ INSTALLED_APPS += [
     'rest_framework',
     'django_filters',
     'corsheaders',
-    'drf_spectacular',
+    'djoser',
 ]
 
 # apps
@@ -47,10 +47,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-]
-
-MIDDLEWARE += [
-    'corsheaders.middleware.CarsMiddileware'
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'config.urls'
@@ -107,7 +104,7 @@ REST_FRAMEWORK = {
         'rest_framework.parsers.FileUploadParser',
     ],
     # 'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
-    # 'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
     # 'DEFAULT_PAGINATION_CLASS': 'common.pagination.BasePagination',
 }
 
