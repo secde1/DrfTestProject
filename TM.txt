@@ -1,0 +1,9 @@
+python manage.py collectstatic => static file
+pip freeze > requirments.txt => requirments.txt file
+pip install django-cors-headers
+pip install django-environ
+django-admin startproject config .
+pip install djangorestframework-simplejwt
+pip install -U djoser
+
+import pdb
