@@ -5,3 +5,5 @@ pip install django-environ
 django-admin startproject config .
 pip install djangorestframework-simplejwt
 pip install -U djoser
+
+import pdb

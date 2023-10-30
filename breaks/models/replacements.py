@@ -26,3 +26,28 @@ class Replacement(models.Model):
         return f"Смена №{self.pk} для {self.group} "
 
 
+class ReplacementEmployee(models.Model):
+    employee = models.ForeignKey(
+        User, models.CASCADE, 'replacements',
+        verbose_name='Сотрудник'
+    )
+    replacement = models.ForeignKey(
+        'breaks.Replacement', models.CASCADE, 'employees',
+        verbose_name='Смена'
+    )
+    status = models.ForeignKey(
+        'breaks.ReplacementStatus', models.RESTRICT, 'replacement_employees',
+        verbose_name='Статус'
+    )
+
+    class Meta:
+        verbose_name = 'Смена - Работник'
+        verbose_name_plural = 'Смены - Работники'
+
+    def __str__(self):
+        return f"Смена {self.replacement} для {self.employee} "
+
+
+
+
+

@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="983da008-b820-4a2d-adaf-1e995765f7c8" name="Changes" comment="fix: added examle env">
-      <change afterPath="$PROJECT_DIR$/breaks/models/groups.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/breaks/models/replacements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/breaks/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/breaks/models/breaks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/breaks/models/dicts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/models/mixins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/41d5db9f-35d7-4cf0-a311-dc87e2abf0b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/41d5db9f-35d7-4cf0-a311-dc87e2abf0b2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/41d5db9f-35d7-4cf0-a311-dc87e2abf0b2/storage_v2/_src_/database/call_helper.r8zM3A/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/41d5db9f-35d7-4cf0-a311-dc87e2abf0b2/storage_v2/_src_/database/call_helper.r8zM3A/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TM.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TM.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/breaks/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/breaks/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breaks/models/organisations.py" beforeDir="false" afterPath="$PROJECT_DIR$/breaks/models/organisations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/breaks/models/replacements.py" beforeDir="false" afterPath="$PROJECT_DIR$/breaks/models/replacements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,29 +46,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/jamshid/PycharmProjects/DrfTestProject/breaks/models",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/jamshid/PycharmProjects/DrfTestProject/breaks/models&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/breaks/models" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="pandastest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DrfTestProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandastest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pandastest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -77,7 +112,11 @@
       <workItem from="1697880749609" duration="1567000" />
       <workItem from="1697888639373" duration="5625000" />
       <workItem from="1698062751625" duration="22891000" />
-      <workItem from="1698237236326" duration="4337000" />
+      <workItem from="1698237236326" duration="9324000" />
+      <workItem from="1698326827184" duration="22000" />
+      <workItem from="1698475235579" duration="547000" />
+      <workItem from="1698481191765" duration="18843000" />
+      <workItem from="1698647268801" duration="13425000" />
     </task>
     <task id="LOCAL-00001" summary="feat: start project">
       <created>1697889127519</created>
@@ -126,5 +165,8 @@
     <MESSAGE value="fix: created project base" />
     <MESSAGE value="fix: added examle env" />
     <option name="LAST_COMMIT_MESSAGE" value="fix: added examle env" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DrfTestProject$main.coverage" NAME="pandastest Coverage Results" MODIFIED="1698668071714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
