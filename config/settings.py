@@ -7,6 +7,7 @@ environ.Env.read_env(env.str(root(), '.env'))
 
 BASE_DIR = root
 
+
 SECRET_KEY = env.str('SECRET_KEY')
 DEBUG = env.bool('DEBUG', default=False)
 ALLOWED_HOSTS = env.str('ALLOWED_HOSTS', default='').split(' ')
@@ -19,6 +20,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # new
+    # 'users.apps.UsersConfig',
 
 ]
 # packages
@@ -27,14 +30,17 @@ INSTALLED_APPS += [
     'django_filters',
     'corsheaders',
     'djoser',
+    'phonenumber_field',
 ]
 
 # apps
 INSTALLED_APPS += [
     'api',
     'common',
+    'users',
     'breaks',
 ]
+AUTH_USER_MODEL = 'users.User'
 # after apps
 INSTALLED_APPS += [
     'drf_spectacular',

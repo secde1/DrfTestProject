@@ -5,18 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="983da008-b820-4a2d-adaf-1e995765f7c8" name="Changes" comment="fix: added examle env">
-      <change afterPath="$PROJECT_DIR$/breaks/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/breaks/models/breaks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/breaks/models/dicts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/models/mixins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/models/managers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/models/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DrfTestProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DrfTestProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/41d5db9f-35d7-4cf0-a311-dc87e2abf0b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/41d5db9f-35d7-4cf0-a311-dc87e2abf0b2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/41d5db9f-35d7-4cf0-a311-dc87e2abf0b2/storage_v2/_src_/database/call_helper.r8zM3A/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/41d5db9f-35d7-4cf0-a311-dc87e2abf0b2/storage_v2/_src_/database/call_helper.r8zM3A/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TM.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TM.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breaks/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/breaks/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/breaks/models/replacements.py" beforeDir="false" afterPath="$PROJECT_DIR$/breaks/models/replacements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/mixins.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/mixins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +61,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -117,6 +122,12 @@
       <workItem from="1698475235579" duration="547000" />
       <workItem from="1698481191765" duration="18843000" />
       <workItem from="1698647268801" duration="13425000" />
+      <workItem from="1698747555844" duration="13029000" />
+      <workItem from="1698839060726" duration="1621000" />
+      <workItem from="1698840827188" duration="67000" />
+      <workItem from="1698840914885" duration="63000" />
+      <workItem from="1698841000072" duration="348000" />
+      <workItem from="1698841366523" duration="674000" />
     </task>
     <task id="LOCAL-00001" summary="feat: start project">
       <created>1697889127519</created>
