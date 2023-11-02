@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="983da008-b820-4a2d-adaf-1e995765f7c8" name="Changes" comment="fix: added examle env">
-      <change afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/models/managers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/models/users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DrfTestProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DrfTestProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/41d5db9f-35d7-4cf0-a311-dc87e2abf0b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/41d5db9f-35d7-4cf0-a311-dc87e2abf0b2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/41d5db9f-35d7-4cf0-a311-dc87e2abf0b2/storage_v2/_src_/database/call_helper.r8zM3A/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/41d5db9f-35d7-4cf0-a311-dc87e2abf0b2/storage_v2/_src_/database/call_helper.r8zM3A/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/models/mixins.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/mixins.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +31,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="2WyvMnX3CmxONjMIiItrabX7tQm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -128,6 +116,7 @@
       <workItem from="1698840914885" duration="63000" />
       <workItem from="1698841000072" duration="348000" />
       <workItem from="1698841366523" duration="674000" />
+      <workItem from="1698844938135" duration="3214000" />
     </task>
     <task id="LOCAL-00001" summary="feat: start project">
       <created>1697889127519</created>
