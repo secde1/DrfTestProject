@@ -41,6 +41,7 @@ INSTALLED_APPS += [
     'breaks',
 ]
 AUTH_USER_MODEL = 'users.User'
+AUTHENTICATION_BACKENDS = ('users.backends.AuthBackend',)
 # after apps
 INSTALLED_APPS += [
     'drf_spectacular',

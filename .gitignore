@@ -168,3 +168,5 @@ media/
 */media/
 /api/migrations/
 /common/migrations/
+/main.py
+/apiAtack.py

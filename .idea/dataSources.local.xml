@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="PY-232.10072.31">
-    <data-source name="call_helper@localhost" uuid="41d5db9f-35d7-4cf0-a311-dc87e2abf0b2">
+    <data-source name="call_helper@localhost" uuid="a898c3c1-ed90-4927-9e26-93cee0cffa1a">
       <database-info product="PostgreSQL" version="14.9 (Ubuntu 14.9-0ubuntu0.22.04.1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.6.0" dbms="POSTGRES" exact-version="14.9" exact-driver-version="42.6">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
-      <secret-storage>forget</secret-storage>
+      <secret-storage>master_key</secret-storage>
       <user-name>postgres</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="database" qname="call_helper">
+          <node kind="database" qname="@">
             <node kind="schema" qname="@" />
           </node>
         </introspection-scope>

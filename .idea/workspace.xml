@@ -5,8 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="983da008-b820-4a2d-adaf-1e995765f7c8" name="Changes" comment="fix: added examle env">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/41d5db9f-35d7-4cf0-a311-dc87e2abf0b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/41d5db9f-35d7-4cf0-a311-dc87e2abf0b2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/managers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/models/profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/41d5db9f-35d7-4cf0-a311-dc87e2abf0b2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/41d5db9f-35d7-4cf0-a311-dc87e2abf0b2/storage_v2/_src_/database/call_helper.r8zM3A.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/41d5db9f-35d7-4cf0-a311-dc87e2abf0b2/storage_v2/_src_/database/call_helper.r8zM3A/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/41d5db9f-35d7-4cf0-a311-dc87e2abf0b2/storage_v2/_src_/database/call_helper.r8zM3A/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/41d5db9f-35d7-4cf0-a311-dc87e2abf0b2/storage_v2/_src_/database/call_helper.r8zM3A/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TM.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breaks/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breaks/migrations/0002_alter_organisations_employees.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breaks/migrations/0003_rename_organisations_organisation_group.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breaks/migrations/0004_product.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breaks/migrations/0005_alter_group_organisations_delete_product.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breaks/migrations/0006_alter_organisation_director_replacement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breaks/migrations/0007_replacementstatus.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breaks/migrations/0008_replacementemployee.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breaks/migrations/0009_breakstatus_alter_replacementstatus_options.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breaks/migrations/0010_alter_breakstatus_options_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breaks/migrations/0011_alter_break_options.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breaks/migrations/0012_alter_breakstatus_sort_alter_replacementstatus_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breaks/migrations/0013_remove_break_duration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandastest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0002_alter_user_username.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models/managers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models/users.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +60,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2WyvMnX3CmxONjMIiItrabX7tQm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -62,8 +94,33 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/breaks/models" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/users" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.apiAtack">
+    <configuration name="apiAtack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DrfTestProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apiAtack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pandastest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DrfTestProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,6 +145,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.apiAtack" />
         <item itemvalue="Python.pandastest" />
       </list>
     </recent_temporary>
@@ -117,6 +175,20 @@
       <workItem from="1698841000072" duration="348000" />
       <workItem from="1698841366523" duration="674000" />
       <workItem from="1698844938135" duration="3214000" />
+      <workItem from="1698926392785" duration="5255000" />
+      <workItem from="1698986100295" duration="2917000" />
+      <workItem from="1698991469628" duration="2386000" />
+      <workItem from="1698995757067" duration="18000" />
+      <workItem from="1699016250314" duration="21000" />
+      <workItem from="1699093159646" duration="1154000" />
+      <workItem from="1699251752738" duration="852000" />
+      <workItem from="1699337146323" duration="4963000" />
+      <workItem from="1699354982793" duration="2037000" />
+      <workItem from="1699362421864" duration="508000" />
+      <workItem from="1699419380562" duration="186000" />
+      <workItem from="1699419577206" duration="8128000" />
+      <workItem from="1699444193543" duration="5033000" />
+      <workItem from="1699467182517" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="feat: start project">
       <created>1697889127519</created>
@@ -168,5 +240,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DrfTestProject$main.coverage" NAME="pandastest Coverage Results" MODIFIED="1698668071714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DrfTestProject$apiAtack.coverage" NAME="apiAtack Coverage Results" MODIFIED="1699448195218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
